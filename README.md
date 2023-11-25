@@ -1,2 +1,1 @@
-# TRABALHOSD
-Trabalho de sistemas distibuídos
+## Trabalho de Sistemas Distribuidos
