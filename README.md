@@ -9,6 +9,7 @@
 > Para aprender e testar o React, você deve configurar um Ambiente React em seu computador.
 > 
 > Neste tutorial utilizamos o <code>create-react-app</code>
+>
 > A ferramenta é uma maneira oficialmente suportada de criar aplicações React.
 >
 > O `Node.js` é necessário estar instalado para utilizar o <code>create-react-app</code>.
@@ -57,7 +58,9 @@ my-react-app
 ![Tela incial de quando a aplicação React é executada pela primeira vez](https://www.w3schools.com/react/screenshot_myfirstreact.png)
 
 ### O clássico exemplo de código
-> Por tradição, o exemplo básico em qualquer linguagem que se estuda é o "Hello World!". Então vamos mostrar esse exemplo no React
+> Por tradição, o exemplo básico em qualquer linguagem que se estuda é o "Hello World!".
+>
+> Então vamos demostrar esse exemplo no React:
 ```
 import React from 'react';
 import ReactDOM from 'react-dom/client';
