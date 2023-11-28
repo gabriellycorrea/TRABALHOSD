@@ -39,24 +39,28 @@ const Tela = () => {
           <label>
             Nome do motorista:
             <input
-              type="text"
-              name="campo1"
-              value={dados.campo1}
-              onChange={handleChange}
+            className='input-primary '
+            placeholder='Digite o nome do motorista'
+            type="text"
+            name="campo1"
+            value={dados.campo1}
+            onChange={handleChange}
             />
           </label>
-          <br />
+          {/* <br /> */}
           <label>
             Placa do automóvel:
             <input
+            className='input-primary '
+            placeholder='Digite a placa do carro'
               type="text"
               name="campo2"
               value={dados.campo2}
               onChange={handleChange}
             />
           </label>
-          <br />
-          <label>
+          {/* <br /> */}
+          {/* <label>
             Horário de entrada:
             <input
               type="time"
@@ -65,7 +69,7 @@ const Tela = () => {
               onChange={handleChange}
             />
           </label>
-          <br />
+          <br /> */}
           <label>
             Tipo de estacionamento:
             <select
@@ -78,8 +82,8 @@ const Tela = () => {
               <option value="Exclusive">Exclusive</option>
             </select>
           </label>
-          <br />
-          <label>
+          {/* <br /> */}
+          {/* <label>
             Quantidade de horas:
             <input
               type="text"
@@ -93,7 +97,7 @@ const Tela = () => {
                 }));
               }}
             />
-          </label>
+          </label> */}
           <br />
         </form>
       </div>
