@@ -1,4 +1,3 @@
-// tela inicial
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -19,35 +18,29 @@ const Tela = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Aqui você pode adicionar lógica para lidar com os dados submetidos
     console.log('Dados do formulário:', dados);
-    setModalIsOpen(true); // Abre o modal ao enviar o formulário
-  };
-
-  const closeModal = () => {
-    setModalIsOpen(false);
+    setModalIsOpen(true);
   };
 
   return (
     <main>
-      <div id='formulario'>
+      <div>
         <form onSubmit={handleSubmit}>
           <label>
             Placa do automóvel:
             <input
-            className='input-primary '
-            placeholder='Digite a placa do carro'
+              placeholder='Digite a placa do seu automóvel aqui!'
               type="text"
               name="campo1"
               value={dados.campo1}
               onChange={handleChange}
             />
-          </label>
+          </label> 
         </form>
       </div>
       <div id='botton'>
-        <Link className='voltar' to={'/Cadastrar-carro'}>Cadastrar</Link>
-        <Link className='voltar' to={'/Pagamento'}>Pagar</Link>
+        <Link className='Link' to={'/Cadastrar-carro'}>Cadastrar</Link>
+        <Link className='Link' to={'/Pagamento'}>Pagar</Link>
       </div>
     </main>
   );

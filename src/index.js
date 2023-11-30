@@ -5,22 +5,20 @@ import App from './App';
 import Cadastrar from './pages/Cadastrar-carro';
 import Pagar from './pages/Pagamento';
 import reportWebVitals from './reportWebVitals';
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
 const router = createBrowserRouter([
+  //elemento da src/App.jsx
   {
     path: "/",
     element: <App/>
   },
-  //elemento da pagina de cadastrar o carro 
+  //elemento da src/pages/Cadastrar-carro/index.jsx
   {
     path:'/Cadastrar-carro',
     element: <Cadastrar/>
   },
-  //elemento da pagina de pesquisa carro
+  //elemento da src/pages/Pagamento/index.jsx
   {
     path:'/Pagamento',
     element: <Pagar/>
