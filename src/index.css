@@ -9,7 +9,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 
   /* configurações da imagem de fundo */
-  background-image: url(../public/parking.png);
+  background-color: white;
   /* background-repeat: no-repeat; --> fazer o responsivo  */
   background-size: cover;
   width: 100%;
@@ -32,7 +32,7 @@ code {
 
 /* CSS DA App.jsx */
 div#main {
-  width: 300px;
+  width: 45vh;
 }
 
 .Link {

@@ -2,8 +2,8 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-import Tela from './pages/Cadastrar-carro';
-import BuscarPlaca from './pages/Pagamento';
+import Cadastrar from './pages/Cadastrar-carro';
+import Pagar from './pages/Pagamento';
 import reportWebVitals from './reportWebVitals';
 import {
   createBrowserRouter,
@@ -18,12 +18,12 @@ const router = createBrowserRouter([
   //elemento da pagina de cadastrar o carro 
   {
     path:'/Cadastrar-carro',
-    element: <Tela/>
+    element: <Cadastrar/>
   },
   //elemento da pagina de pesquisa carro
   {
     path:'/Pagamento',
-    element: <BuscarPlaca/>
+    element: <Pagar/>
   }
 ]);
 const root = ReactDOM.createRoot(document.getElementById('root'));
