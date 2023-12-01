@@ -89,7 +89,7 @@ root.render(<Hello />);
 >
 ![botao de criação](https://github.com/gabriellycorrea/TRABALHOSD/assets/110353094/811315e2-dceb-495f-be29-ced86d39d329)
 
-> Após clicar no botão, abrirá a tela `Create a Repl`, você deve selecionar o template `React TypeScript` e selecionar um título para seu projeto. Segue uma ilustração da tela previamente configurada abaixo.
+> Após clicar no botão, abrirá a tela `Create a Repl`, você deve selecionar o template `React Javascript` e selecionar um título para seu projeto. Segue uma ilustração da tela previamente configurada abaixo.
 >
 > Para concluir a criação, você deve clicar no botão `+ Create Repl`, como ilustra a baixo: 
 >
