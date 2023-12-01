@@ -77,6 +77,40 @@ root.render(<Hello />);
 > 
 ![exemplo de código do Hello World](https://github.com/gabriellycorrea/TRABALHOSD/assets/110353094/5a3836f9-c8c4-416c-813a-8de77c283778)
 
+## React no Replit
+### Sobre o Replit 
+> Replit, anteriormente Repl.it, é uma start-up americana e um ambiente de desenvolvimento integrado on-line (IDE). Replit sendo Software as a service (SaaS) permite aos usuários criar projetos on-line (chamados Repls, não confundir com REPLs) e escrever código. A Replit tem uma comunidade global para programadores interagirem e oferece ao Teams for Education, um produto para auxiliar no ensino de programação em sala de aula.
+### Criando o projeto
+> Deixando a introdução de lado, vamos ver como criar uma aplicação React por meio do Replit.
+>
+> Primeiramente, é necessário que você tenha uma conta criada dentro da plataforma.
+>
+> Logado no site, você deve clicar no botão `+ Create Repl`, como mostrado na imagem abaixo:
+>
+![botao de criação](https://github.com/gabriellycorrea/TRABALHOSD/assets/110353094/811315e2-dceb-495f-be29-ced86d39d329)
+
+> Após clicar no botão, abrirá a tela `Create a Repl`, você deve selecionar o template `React TypeScript` e selecionar um título para seu projeto. Segue uma ilustração da tela previamente configurada abaixo.
+>
+> Para concluir a criação, você deve clicar no botão `+ Create Repl`, como ilustra a baixo: 
+>
+![create repl](https://github.com/gabriellycorrea/TRABALHOSD/assets/110353094/cde977ce-97fd-48be-b518-28935bb7be36)
+> Ao seguir os seguinte passos açbrirá um projeto base para você, como ilustra a tela abaixo.
+>
+> Após fazer as mudanças que deseja no projeto raiz, você pode clicar em `Run` para executar o projeto. 
+>
+![tela do código](https://github.com/gabriellycorrea/TRABALHOSD/assets/110353094/17ddb84d-99c6-4ccd-a482-0a4b55b48191)
+
+> O resultado da execução desse exemplo, é esse: 
+>
+![codigo rodado](https://github.com/gabriellycorrea/TRABALHOSD/assets/110353094/746853c6-fe22-40c2-b6f9-de06594706b0)
+
+> Caso queira fazer alguma mudança, a aplicação não atualizara em tempo real como é normalmente em IDEs locais.
+>
+> Para atualizar a mudança da sua aplicação, você deve clicar em `Stop` e execute o código novamente clicando em `Run`. 
+>
+
+
+
 ## O trabalho em específico 
 ### Introdução
 > O trabalho teve como objetivo aplicarmos nossos conhecimentos teóricos na prática, desenvolvendo um sistema distribuído com tecnologia `React.js`.
