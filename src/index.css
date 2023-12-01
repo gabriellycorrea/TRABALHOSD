@@ -21,31 +21,22 @@ label{
   font-weight: bolder;
   font-size: 25px;
 }
+
 input{
   /* display: flex; */
   padding: 1.1vh;
   margin: 5px;
   border-radius: 18px;
-  width: 26.2vh;
-}
-
-form {
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  gap: .5rem;
-  justify-content: flex-start;
-  align-items: flex-start;
+  width: 33.5vh;
 }
 
 main > div > .Link {
   text-decoration: none;
   font-size: medium;
-  color: black;
   background-color: rgba(255, 255, 0, 0.484);
   padding: 0px 15px;
   border-radius: 5px;
-  margin: 5px;
+  margin: 0px 5px;
   border: 1px solid #000;
 }
 
