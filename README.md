@@ -115,5 +115,65 @@ root.render(<Hello />);
 ### Introdução
 > O trabalho teve como objetivo aplicarmos nossos conhecimentos teóricos na prática, desenvolvendo um sistema distribuído com tecnologia `React.js`.
 > Para aplicação desses, foi suposto o cenário de um <strong>estacionamento inteligente</strong>, onde o grupo deveria criar uma aplicação baseada em <strong>formulários</strong>
-> no qual a maior parte do processo de locação fosse automática. Assim nasceu a ideia desta aplicação, que consiste em uma forma de coletar os dados do motorista que deseja locar o
-> estacionamento e quando o mesmo retornar para retirar seu carro, bastasse ele inserir a placa dele que a aplicação retornará seus dados para confirmação e o preço total da locação.   
+> no qual a maior parte do processo de locação fosse automática.
+
+### As telas da aplicação
+> Foi sugerido pelo professor uma tela  básica, que houvesse apenas uma tela e somente um <code>input</code>. Esse <code>inputo</code> seria responsavel por pegar a placa do automovél
+> do cliente e partindo da inserção dessa placa, o sistema definiria se o automóvel deve ser cadastrado como uma nova vaga locada ou se o motorista estava voltando para buscar seu
+> automóvel e então a locação deveria ser encerrada. Vale lembrar que a aplicação deste trabalho está somente no front-end, e portanto não há banco de dados para que de fato essa checagem seja feita.
+>
+> A baixo, está ilustado a tela inicial da aplicação criada:
+
+![tela inicial](https://github.com/gabriellycorrea/TRABALHOSD/assets/110353094/e7e97862-a9d3-47f5-80a7-7d2fc7f11480)
+
+> Caso o usuário esteja chegando pela primeira vez no estacionamento, ao clicar no botão `Cadastrar`, ele será redirecionado para uma tela de confirmação indicando que seu cadastro foi realizado corretamente.
+>
+> Abaixo segue a ilustração da tela de confirmação que o automóvel foi cadastrado corretamente.
+
+![cadastro realizado](https://github.com/gabriellycorrea/TRABALHOSD/assets/110353094/a503a260-07eb-42a5-bb66-5324a7ae4361)
+
+> Outra opção, dita anteriormente, é o usuário estar retornando para retirar seu automóvel. Assim ao clicar no botão `Pagar`, ele será redirecionado para uma tela de confirmação indicando que seu pagamento foi realizado corretamente.
+>
+> Abaixo segue a ilustração da tela de confirmação que o pagamento foi efetuado corretamente.
+
+![pagamento realizado](https://github.com/gabriellycorrea/TRABALHOSD/assets/110353094/02c8964d-d479-4f47-8a97-cb8cbe367a94)
+
+### Conclusões sobre o trabalho
+> Nessa trabalho, o foco estava na tecnologia `React.js` e foi instruido pelo professor que não houvesse foco **nenhum** em CSS.
+>
+> A Aplicação foi baseada em `formulários`, como citado anteriormente.
+>
+> Para redirecionamento entre as páginas, utilizandos a biblioteca `React Router`e seu componente <code>*Link*</code>
+>
+> Para a utilização de <code>*Links*</code> em `React` basta incluir os seguintes <code>imports</code> no seu código:
+> 
+> Na `App.js`, também nomeada como `App.jsx`, faça o seguinte import: 
+
+```
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
+```
+
+> Logo em seguida, crie o método responsavel por criar um navegador de rotas personalizado.
+>
+> Nesse exemplo de código, criamos o método `createBrowserRouter`.
+>
+> Esse método recebe um array que contem as informações sobre as rotas da aplicação.
+>
+> Em suma essas informação são os atributos `path` e `element`.
+>
+> O **path** é o caminho da URL que corresponderá a uma rota. Por exemplo, `"/"` corresponde à página inicial, geralmente a `App.jsx`.
+>
+> O **element** representa o componente React que deve ser renderizado quando a URL corresponder a esse caminho.
+>
+> Por exemplo, `<App/>` será renderizado quando a URL for a página inicial, geralmente a `App.jsx`. 
+>
+> A baixo, segue um exemplo em código desse método que foi utilizado no nosso trabalho para fazer redirecionamento de páginas. 
+
+```
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App/>
+  }
+]);
+```
