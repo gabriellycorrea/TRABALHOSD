@@ -143,9 +143,9 @@ root.render(<Hello />);
 >
 > A Aplicação foi baseada em `formulários`, como citado anteriormente.
 >
-> Para redirecionamento entre as páginas, utilizandos a biblioteca `React Router`e seu componente <code>*Link*</code>
+> Para redirecionamento entre as páginas, utilizandos a biblioteca `React Router` e seu componente <code>*Link*</code>
 >
-> Para utilização dessa biblioteca, antes devemos instala-la com o seguinte comando <code>npm install react-router-dom</code>
+> Para utilização dessa biblioteca devemos instala-la com o seguinte comando <code>npm install react-router-dom</code>
 >
 > Para a utilização de <code>*Links*</code> em `React` basta incluir os seguintes <code>imports</code> no seu código:
 > 
