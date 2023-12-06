@@ -6,8 +6,30 @@
 > 
 > O React pode ser utilizado para desenvolver aplicações de página única, mobile ou renderizadas no servidor com frameworks como o Next.js. Como o React está focado exclusivamente na interface do usuário e na renderização de componentes no DOM, as aplicações React frequentemente dependem de bibliotecas para roteamento e outras funcionalidades do lado do cliente.
 
-## Arquitetura do React 
->O React utiliza o JSX, uma extensao de sintaxe que permite escrever um código muito semelhante ao HTML diretamento no JavaScript. Após uma requisiçao ser feita em uma página em React, é feita a transpilaçao para Javascript, tornando-o compatível com os navegadores.
+### Alguns conceitos da arquitetura do React 
+> A arquitetura do React é baseada em alguns conceitos fundamentais, melhores detalhados abaixo:
+>
+> **Componentes:** O React organiza a interface do usuário em componentes reutilizáveis. Um componente é uma peça isolada e independente de código que encapsula a lógica e a interface de uma parte específica da UI.
+>
+> **Virtual DOM:** O React utiliza um conceito chamado Virtual DOM (DOM Virtual) para melhorar a eficiência nas atualizações da interface do usuário. Em vez de manipular diretamente o DOM (Document Object Model) do navegador, o React cria uma representação virtual da árvore DOM na memória. Ele compara essa representação virtual com a versão anterior para determinar as mudanças necessárias antes de atualizar o DOM real. Isso minimiza as manipulações diretas no DOM, tornando as atualizações mais rápidas.
+>
+> **Estado (State) e Propriedades (Props):** Os componentes React podem ter um estado interno que representa dados que podem mudar durante a vida útil do componente. Além disso, os componentes podem receber dados externos chamados "props" (propriedades) que são passados para eles por componentes pais.
+>
+> **Renderização:** O React utiliza um sistema de renderização eficiente. Quando o estado de um componente muda, o React re-renderiza apenas as partes afetadas da interface, evitando a necessidade de atualizar toda a página.
+>
+> **Ciclo de Vida do Componente:** Os componentes React têm um ciclo de vida que consiste em métodos específicos chamados em diferentes fases, como a criação, a atualização e a destruição do componente. Isso permite que você execute lógica específica em momentos específicos do ciclo de vida do componente.
+>
+> **JSX (JavaScript XML):** O React utiliza uma extensão da sintaxe JavaScript chamada JSX. JSX permite que você escreva marcação HTML diretamente em seu código JavaScript, facilitando a criação de componentes e a visualização da estrutura da UI.
+
+### A arquitetura do React na prática
+> Quando um usuário visita uma página React, o servidor Node.js primeiro renderiza os componentes da página para HTML.
+> 
+> Isso é feito usando o ReactDOM. Assim, o HTML renderizado é então enviado ao navegador do usuário.
+> 
+> O navegador usa o interpretador JavaScript para interpretar o HTML e renderizar a interface de usuário.
+> 
+> Abaixo segue uma ilustração:
+
 
 ![Arquitetura do React](SERVIDOR.png)
 ### Criando um App React
