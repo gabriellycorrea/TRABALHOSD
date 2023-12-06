@@ -5,6 +5,15 @@
 >O React (também conhecido como React.js ou ReactJS) é uma biblioteca de código aberto em JavaScript para construir interfaces de usuário baseadas em componentes. É mantido pela Meta (antigo Facebook) e uma comunidade de desenvolvedores individuais e empresas.
 > 
 > O React pode ser utilizado para desenvolver aplicações de página única, mobile ou renderizadas no servidor com frameworks como o Next.js. Como o React está focado exclusivamente na interface do usuário e na renderização de componentes no DOM, as aplicações React frequentemente dependem de bibliotecas para roteamento e outras funcionalidades do lado do cliente.
+### Algumas diferenças para o JavaScript
+>Utilizando JavaScript:
+>
+>![image](https://github.com/gabriellycorrea/TRABALHOSD/assets/133927915/b1990432-b8be-4f2d-9e67-921670fc60a9)
+>
+>Utilizando React:
+>
+>![image](https://github.com/gabriellycorrea/TRABALHOSD/assets/133927915/34830a15-4803-4783-a9d9-b507d5d3b8df)
+
 
 ### Alguns conceitos da arquitetura do React 
 > A arquitetura do React é baseada em alguns conceitos fundamentais, melhores detalhados abaixo:
